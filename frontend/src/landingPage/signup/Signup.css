@@ -1,0 +1,328 @@
+.signup-hero {
+  padding: 62px 0 28px;
+  color: #424242;
+}
+
+.signup-heading h1,
+.signup-section h2 {
+  color: #424242;
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.signup-heading p {
+  color: #666;
+  font-size: 1.25rem;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.signup-hero-content {
+  margin-top: 54px;
+}
+
+.signup-main-img {
+  max-width: 100%;
+  width: 520px;
+}
+
+.signup-form-box h2 {
+  color: #424242;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.35;
+  margin-bottom: 28px;
+}
+
+.signup-form-box h3 {
+  color: #424242;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.track-copy,
+.nri-copy,
+.terms-copy {
+  color: #666;
+}
+
+.track-copy {
+  margin-bottom: 22px;
+}
+
+.phone-input {
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  height: 50px;
+  max-width: 360px;
+}
+
+.phone-input span {
+  border-right: 1px solid #ddd;
+  color: #424242;
+  font-size: 1.05rem;
+  padding: 0 16px;
+}
+
+.phone-input input {
+  border: 0;
+  flex: 1;
+  font-size: 1.05rem;
+  min-width: 0;
+  outline: 0;
+  padding: 0 14px;
+}
+
+.nri-copy {
+  font-size: 0.95rem;
+  margin: 12px 0 18px;
+}
+
+.signup-btn {
+  border-radius: 3px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  min-width: 130px;
+  padding: 10px 28px;
+}
+
+.terms-copy {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  margin-top: 18px;
+  max-width: 360px;
+}
+
+.signup-hero a,
+.signup-section a {
+  color: #387ed1;
+  text-decoration: none;
+}
+
+.signup-hero a:hover,
+.signup-section a:hover {
+  color: #222;
+}
+
+.nri-strip {
+  border-top: 1px solid #eee;
+  color: #666;
+  margin-top: 58px;
+  padding-top: 24px;
+  text-align: center;
+}
+
+.signup-section {
+  padding: 62px 0;
+}
+
+.signup-section h2 {
+  text-align: center;
+}
+
+.investment-options {
+  border-top: 1px solid #eee;
+}
+
+.investment-item {
+  margin-top: 36px;
+  text-align: center;
+}
+
+.investment-item img {
+  height: 74px;
+  margin-bottom: 22px;
+}
+
+.investment-item h3,
+.benefit-item h3,
+.account-type h3 {
+  color: #424242;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.investment-item p,
+.benefit-item p,
+.account-type p {
+  color: #666;
+  line-height: 1.7;
+}
+
+.signup-link {
+  display: inline-block;
+  font-size: 1.05rem;
+  margin-top: 26px;
+}
+
+.steps-section {
+  background: #fafafa;
+}
+
+.steps-row {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 42px auto 0;
+  max-width: 880px;
+}
+
+.step-item {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+}
+
+.step-item span {
+  color: #9b9b9b;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.step-item p {
+  color: #424242;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.benefits-img {
+  max-width: 100%;
+  width: 430px;
+}
+
+.benefits-section h2 {
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.benefits-list {
+  display: grid;
+  gap: 22px;
+}
+
+.benefit-item p {
+  margin: 0;
+}
+
+.account-types-section {
+  background: #fafafa;
+}
+
+.account-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 36px;
+}
+
+.account-type {
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  display: flex;
+  gap: 16px;
+  min-height: 116px;
+  padding: 22px;
+}
+
+.account-type i {
+  color: #387ed1;
+  font-size: 1.7rem;
+  line-height: 1;
+  margin-top: 2px;
+}
+
+.account-type p {
+  margin: 0;
+}
+
+.faq-section .accordion {
+  margin: 34px auto 0;
+  max-width: 900px;
+}
+
+.faq-section .accordion-item {
+  border-color: #e6e6e6;
+  border-left: 0;
+  border-radius: 0;
+  border-right: 0;
+}
+
+.faq-section .accordion-button {
+  color: #424242;
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.faq-section .accordion-button:not(.collapsed) {
+  background: #fff;
+  box-shadow: none;
+  color: #424242;
+}
+
+.faq-section .accordion-button:focus {
+  box-shadow: none;
+}
+
+.faq-section .accordion-body {
+  color: #666;
+  line-height: 1.8;
+  padding: 0 0 22px;
+}
+
+@media (max-width: 991px) {
+  .signup-form-box {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .phone-input,
+  .terms-copy {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .benefits-section h2 {
+    margin-top: 34px;
+    text-align: center;
+  }
+
+  .steps-row {
+    grid-template-columns: 1fr;
+    max-width: 430px;
+  }
+}
+
+@media (max-width: 767px) {
+  .signup-hero {
+    padding-top: 38px;
+  }
+
+  .signup-heading h1,
+  .signup-section h2 {
+    font-size: 1.85rem;
+  }
+
+  .signup-heading p {
+    font-size: 1.05rem;
+  }
+
+  .signup-hero-content {
+    margin-top: 36px;
+  }
+
+  .signup-section {
+    padding: 46px 0;
+  }
+
+  .account-grid {
+    grid-template-columns: 1fr;
+  }
+}
