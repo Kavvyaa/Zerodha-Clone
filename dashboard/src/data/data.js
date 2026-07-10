@@ -190,4 +190,23 @@ export const positions = [
     day: "-1.35%",
     isLoss: true,
   },
+  {
+    product: "CNC",
+    name: "JUBLFOOD",
+    qty: 1,
+    avg: 3124.75,
+    price: 3082.65,
+    net: "+10.04%",
+    day: "-1.35%",
+    isLoss: true,
+  },
+  {
+    product: "BNB",
+    name: "MELODY",
+    qty: 2,
+    avg: 3124.75,
+    price: 3082.65,
+    net: "+10.04%",
+    day: "+1.35%",
+  },
 ];
