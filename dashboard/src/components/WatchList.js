@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import {Tooltip, Grow} from '@mui/material';
 
@@ -28,3 +28,19 @@ const WatchList = () => {
 };
 
 export default WatchList;
+
+const WatchListItem = ({stock})=>{
+  const [showWatchlistActions, setShowWatchlistActions] = useState(false);
+
+  const handleMouseEnter = (e)=>{
+    setShowWatchlistActions(true);
+  }
+
+    const handleMouseExit = (e)=>{
+    setShowWatchlistActions(false);
+  }
+
+  return (
+    <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}></li>
+  );
+};
