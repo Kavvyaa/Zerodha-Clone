@@ -193,6 +193,16 @@ const PORT = process.env.PORT || 3002;
 //     res.send("Positions executed!");
 // });
 
+app.get('/allholdings', async(req, res)=>{
+  let allholdings = await HoldingsModel.find();
+  res.json(allholdings);
+});
+
+app.get('/allpositions', async(req, res)=>{
+  let allpositions = await PositionsModel.find();
+  res.json(allpositions);
+});
+
 mongoose
   .connect(process.env.MONGO_URL)
   .then(() => {
