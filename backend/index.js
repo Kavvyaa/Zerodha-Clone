@@ -4,6 +4,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const cookieParser = require('cookie-parser');
+const authRoute = require('./routes/AuthRoute')
 
 const {HoldingsModel} = require("./models/HoldingsModel");
 const {PositionsModel} = require("./models/PositionsModel");
@@ -17,6 +19,9 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
+app.use(express.json());
+app.use("/", authRoute);
 
 // app.get("/addHoldings", async (req, res) => {
 //   let tempHoldings = [
@@ -217,7 +222,8 @@ app.get("/allOrders", async (req, res) => {
 
 
 mongoose
-  .connect(process.env.MONGO_URL)
+  .connect(process.env.MONGO_URL,{
+  })
   .then(() => {
     console.log("MongoDB Connected");
     app.listen(PORT, () => {
@@ -227,3 +233,11 @@ mongoose
   .catch((err) => {
     console.error(err);
   });
+
+app.use(
+  cors({
+    origin: ["http://localhost:3002"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
