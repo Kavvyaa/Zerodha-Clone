@@ -1,5 +1,6 @@
 const {model} = require('mongoose');
 const UserSchema = require('../schemas/UserSchema');
+const bcrypt = require('bcryptjs');
 
 
 UserSchema.pre("save", async function () {
