@@ -3,14 +3,20 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 
-function Hero() {
+import InvestmentOptions from "./InvestmentOptions";
+import Steps from "./Steps";
+import Benefits from "./Benefits";
+import AccountTypes from "./AccountTypes";
+import Faq from "./Faq";
+import OpenAccount from "../OpenAccount";
+
+function Login() {
   const navigate = useNavigate();
   const [inputValue, setInputValue] = useState({
     email: "",
     password: "",
-    username: "",
   });
-  const { email, password, username } = inputValue;
+  const { email, password } = inputValue;
   const handleOnChange = (e) => {
     const { name, value } = e.target;
     setInputValue({
@@ -25,7 +31,7 @@ function Hero() {
     });
   const handleSuccess = (msg) =>
     toast.success(msg, {
-      position: "bottom-right",
+      position: "bottom-left",
     });
 
   const handleSubmit = async (e) => {
@@ -34,7 +40,7 @@ function Hero() {
     console.log("Input Value:", inputValue);
     try {
       const response = await axios.post(
-        "http://localhost:3002/signup",
+        "http://localhost:4000/login",
         {
           ...inputValue,
         },
@@ -43,7 +49,7 @@ function Hero() {
       console.log("Response:", response);
       console.log("Data:", response.data);
 
-      const { success, message } = response.data;
+      const { success, message } = response;
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
@@ -60,11 +66,10 @@ function Hero() {
       ...inputValue,
       email: "",
       password: "",
-      username: "",
     });
   };
 
-  return (
+  return ( <>
     <section className="signup-hero">
       <div className="container">
         <div className="text-center signup-heading">
@@ -89,20 +94,6 @@ function Hero() {
               <h2>Open a free demat &amp; trading account online</h2>
 
               <form onSubmit={handleSubmit}>
-                <div className="mb-3">
-                <label htmlFor="username" className="form-label">
-                  Username
-                </label>
-                <input
-                  type="text"
-                  name="username"
-                  value={username}
-                  className="form-control"
-                  id="username"
-                  placeholder="username please..."
-                  onChange={handleOnChange}
-                />
-              </div>
               <div className="mb-3">
                 <label htmlFor="email" className="form-label">
                   Email address
@@ -131,10 +122,10 @@ function Hero() {
                 />
               </div>
               <p className="nri-copy">
-                Already have a account &nbsp; <a href="./login">Click here</a>
+                New to Zerodha &nbsp; <a href="/signup">Click here</a>
               </p>
               <button className="btn btn-primary signup-btn" type="submit" onClick={() => console.log("Button clicked")}>
-                Sign up
+                Login
               </button>
               </form>
 
@@ -151,7 +142,14 @@ function Hero() {
         </div>
       </div>
     </section>
+    <InvestmentOptions />
+      <Steps />
+      <Benefits />
+      <AccountTypes />
+      <Faq />
+      <OpenAccount />
+      </>
   );
 }
 
-export default Hero;
+export default Login;
