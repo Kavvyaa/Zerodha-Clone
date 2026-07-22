@@ -40,7 +40,7 @@ function Login() {
     console.log("Input Value:", inputValue);
     try {
       const response = await axios.post(
-        "http://localhost:4000/login",
+        "http://localhost:3002/login",
         {
           ...inputValue,
         },
@@ -49,7 +49,7 @@ function Login() {
       console.log("Response:", response);
       console.log("Data:", response.data);
 
-      const { success, message } = response;
+      const { success, message } = response.data;
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
@@ -91,7 +91,7 @@ function Login() {
 
           <div className="col-lg-5 offset-lg-1">
             <div className="signup-form-box">
-              <h2>Open a free demat &amp; trading account online</h2>
+              <h2>Login to your demat &amp; trading account online</h2>
 
               <form onSubmit={handleSubmit}>
               <div className="mb-3">
@@ -128,6 +128,7 @@ function Login() {
                 Login
               </button>
               </form>
+              <ToastContainer/>
 
               <p className="terms-copy">
                 By proceeding, you agree to the Zerodha <a href="/">terms</a>{" "}

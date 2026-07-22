@@ -13,14 +13,13 @@ import Footer from './landingPage/Footer';
 import NotFound from './landingPage/NotFound';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "react-toastify/dist/ReactToastify.css"
-
-// import { Login, Signupp } from "./pages";
-import Home from "./pages/Home";
 import Login from "./landingPage/signup/Login";
+import ScrollToTop from './ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+  <ScrollToTop />
   <Navbar />
     <Routes>
       <Route path='/' element={<HomePage />}></Route>
@@ -29,7 +28,6 @@ root.render(
       <Route path='/products' element={<ProductsPage />}></Route>
       <Route path='/pricing' element={<PricingPage />}></Route>
       <Route path='/support' element={<SupportPage />}></Route>
-      <Route path='/home' element={<Home />}></Route>
       <Route path='/login' element={<Login />}></Route>
       <Route path='*' element={<NotFound />}></Route>
     </Routes>
