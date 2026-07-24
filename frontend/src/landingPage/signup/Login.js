@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 
@@ -40,7 +40,7 @@ function Login() {
     console.log("Input Value:", inputValue);
     try {
       const response = await axios.post(
-        "http://localhost:3002/login",
+        `${process.env.REACT_APP_API_URL}/login`,
         {
           ...inputValue,
         },

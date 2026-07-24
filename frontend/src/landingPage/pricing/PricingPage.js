@@ -2,7 +2,6 @@ import React from "react";
 import Hero from '../pricing/Hero';
 import Brokerage from "../pricing/Brokerage";
 import Charges from "../pricing/Charges";
-import OpenAccount from "../OpenAccount";
 function PricingPage() {
     return ( 
         <div>

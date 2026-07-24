@@ -6,52 +6,52 @@ function Footer() {
         <div className='container mt-5'>
             <div className='row mt-5'>
                 <div className='col'>
-                    <img src='Media/images/logo.svg' style={{width:'70%'}} className='mb-4'/>
+                    <img src='Media/images/logo.svg' alt='main logo' style={{width:'70%'}} className='mb-4'/>
                     <p>&copy; 2010 - 2026, Zerodha Broking Ltd.<br />All rights reserved.</p>
                 </div>
                 <div className='col'>
                     <p className='fs-4'>Account</p>
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Open demat account</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Minor demat account</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>NRI demat account</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>HUF demat account</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Commodity</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Dematerialisation</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Fund transfer</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>MTF</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Open demat account</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Minor demat account</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>NRI demat account</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>HUF demat account</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Commodity</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Dematerialisation</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Fund transfer</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>MTF</a><br />
                 </div>
                 <div className='col'>
                     <p className='fs-4'>Support</p>
-                    <a href='' style={{textDecoration:'none', marginBottom:'100rem'}} className='text-muted'>Contact us</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Support portal</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>How to file a complaint?</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Status of your complaints</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Bulletin</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Circular</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Z-Connect blog</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Downloads</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'100rem'}} className='text-muted'>Contact us</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Support portal</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>How to file a complaint?</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Status of your complaints</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Bulletin</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Circular</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Z-Connect blog</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Downloads</a><br />
                 </div>
                 <div className='col'>
                     <p className='fs-4'>Company</p>
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>About</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Philosophy</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Press & media</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Careers</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Zerodha Cares (CSR)</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Zerodha.tech</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Open source</a><br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Referral program</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>About</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Philosophy</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Press & media</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Careers</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Zerodha Cares (CSR)</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Zerodha.tech</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Open source</a><br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Referral program</a><br />
                 </div>
                 <div className='col'>
                     <p className='fs-4'>Quick links</p>
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Upcoming IPOs</a> <br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Brokerage charges</a> <br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Market holidays</a> <br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Economic calendar</a> <br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Calculators</a> <br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Markets</a> <br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Sectors</a> <br />
-                    <a href='' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Gift Nifty</a> <br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Upcoming IPOs</a> <br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Brokerage charges</a> <br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Market holidays</a> <br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Economic calendar</a> <br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Calculators</a> <br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Markets</a> <br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Sectors</a> <br />
+                    <a href='/' style={{textDecoration:'none', marginBottom:'10rem'}} className='text-muted'>Gift Nifty</a> <br />
                 </div>
             </div>
             <div className='mt-5 text-muted' style={{fontSize:'0.70rem'}}>

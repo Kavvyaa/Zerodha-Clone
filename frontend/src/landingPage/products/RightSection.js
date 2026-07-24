@@ -23,7 +23,7 @@ function RightSection({imageUrl,
             <a href={learnMore} className=" text-decoration-none fs-6"><b>Learn More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></b></a>
           </div>
           <div className="col-lg-7 offset-lg-1">
-            <img src={imageUrl} className="img-fluid mb-5" />
+            <img src={imageUrl} alt="right section" className="img-fluid mb-5" />
           </div>
         </div>
       </div>
