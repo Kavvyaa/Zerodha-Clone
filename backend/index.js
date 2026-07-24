@@ -18,8 +18,8 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://YOUR-FRONTEND.netlify.app",
-  "https://YOUR-DASHBOARD.netlify.app",
+  "https://my-zerodh.netlify.app/",
+  "https://zerodha-dashboar.netlify.app/",
 ];
 
 app.use(
